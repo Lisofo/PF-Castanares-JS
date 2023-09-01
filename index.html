@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Librería</title>
+  <link rel="stylesheet" href="main.css">
+</head>
+<body>
+
+<h1>Librería</h1>
+
+<div id="productos-disponibles">
+  <h2>Productos Disponibles</h2>
+  <ul id="lista-productos">
+    <!-- Los productos disponibles se agregarán aquí dinámicamente -->
+  </ul>
+  <button id="cargar-libros">Cargar Libros</button>
+</div>
+
+<div id="carrito">
+  <h2>Carrito de la Librería</h2>
+  <ul id="carrito-lista">
+    <!-- Los productos en el carrito se mostrarán aquí dinámicamente -->
+  </ul>
+  <p id="total-carrito">Total: $0</p>
+  <button id="confirmar-pedido">Confirmar Pedido</button>
+</div>
+
+<div id="popup" class="popup">
+  <div class="popup-content">
+    <p id="popup-message"></p>
+    <button id="popup-cancel">Cancelar</button>
+    <button id="popup-confirm">Confirmar</button>
+  </div>
+</div>
+
+<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+<script src="main.js"></script>
+
+</body>
+</html>
